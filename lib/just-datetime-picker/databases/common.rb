@@ -98,9 +98,9 @@ module Just
               just_combine_datetime field_name
             end
             
-            if options.has_key? :add_to_attr_accessible and options[:add_to_attr_accessible] == true
-              attr_accessible "#{field_name}_date".to_sym, "#{field_name}_time_hour".to_sym, "#{field_name}_time_minute".to_sym
-            end
+            # if options.has_key? :add_to_attr_accessible and options[:add_to_attr_accessible] == true
+            #   attr_accessible "#{field_name}_date".to_sym, "#{field_name}_time_hour".to_sym, "#{field_name}_time_minute".to_sym
+            # end
           end # just_define_datetime_picker
 
           protected
